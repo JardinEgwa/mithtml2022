@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            color: fuchsia;
+            alignment: center;
+            font-size: 50px;
+            font-family: cursive;
+            text-align: center;
+            padding: 10px;
+        }
+        label{
+            color: indigo;
+            alignment: center;
+            font-size: 20px;
+            text-align: center;
+        }
+        input{
+            color: black;
+            alignment: center;
+            font-size: 20px;
+            align-items: center;
+        }
+        input,label{
+            margin-left: 120px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="heading.html">
+  <label for="fname">First Name</label><br>
+    <input type="text" id="fname" placeholder="First name"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" placeholder="Last name"><br>
+    <label for="email">Email Adress</label><br>
+    <input type="email" id="email" placeholder="email address"><br>
+    <label for="courses">Select Course</label>
+    <select name="course" id="courses">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="php">php</option>
+    </select><br>
+    <label for="gender">Gender</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="Gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="Gender">
+        <label for="dor">Date of Registration</label><br>
+    <input type="date" id="dor"><br>
+    <label for="pass">Password</label><br>
+    <input type="password" id="pass" placeholder="Password"><br>
+    <input type="submit" value="Register"><br>
+     <button type="button" onclick="alert('Enjoy your holiday')"> Click for Holiday</button>
+</form>
+</body>
+</html>

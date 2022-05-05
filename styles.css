@@ -1,0 +1,53 @@
+.fruits{
+    border: 2px solid blue;
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+.cars{
+    border: 4px solid crimson;
+    background-color: fuchsia;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+
+
+}
+.FRUITS{
+    border: 6px solid black;
+    background-color: burlywood;
+    text-align: right;
+    padding: 40px;
+    margin: 40px ;
+}
+#KENYA{
+    border:2px solid darkred ;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+#TANZANIA{
+    border: 4px solid black;
+    background-color: burlywood;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+#RWANDA{
+    border: 6px solid yellow;
+    background-color: orangered;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+}
+#UGANDA{
+    border: 2px solid orange;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
